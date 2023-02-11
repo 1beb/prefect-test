@@ -57,7 +57,7 @@ def etl_to_gcs():
 
     color = "green"
     year = 2020
-    month = 12
+    month = 11
     dataset_file = f"{color}_tripdata_{year}-{month:02}"
     dataset_url = f"https://github.com/DataTalksClub/nyc-tlc-data/releases/download/{color}/{dataset_file}.csv.gz"
 
